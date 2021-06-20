@@ -1,7 +1,8 @@
 # 3D Object Tracking
 
 This project aims to associate regions in a camera image with Lidar points in 3D space to build a collision detection system. 
-<img src="images/results.png" width="779" height="414" />
+
+<img src="images/Results.png" width="820" height="248" />
 
 ## Dependencies 
 * cmake >= 2.8
