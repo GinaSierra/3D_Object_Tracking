@@ -1,6 +1,10 @@
 # 3D Object Tracking
 
-This project aims to associate regions in a camera image with Lidar points in 3D space to build a collision detection system. 
+This project approaches the design of a collision detection system based on motion models, lidar, and camera measurements from the benchmark KITTI dataset:
+* Detect and track objects from the benchmark KITTI dataset. 
+* Classify those objects and project them into three dimensions. 
+* Fuse those projections together with lidar data to create 3D objects to track over time and compute time-to-collision based on both sensors.
+
 
 <img src="images/Results.png" width="820" height="248" />
 
